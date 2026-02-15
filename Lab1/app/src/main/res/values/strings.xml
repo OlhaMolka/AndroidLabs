@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CalculatorLab</string>
+
+    <string name="first_number">Введіть перше число</string>
+    <string name="second_number">Введіть друге число</string>
+
+    <string name="addition">Додати</string>
+    <string name="subtraction">Відняти</string>
+    <string name="multiplication">Помножити</string>
+    <string name="division">Поділити</string>
+
+    <string name="ok">OK</string>
+
+    <string name="result_placeholder">Результат</string>
+    <string name="fill_all_fields">Будь ласка, заповніть всі поля та оберіть операцію</string>
+    <string name="division_by_zero">Ділення на нуль неможливе</string>
+</resources>
