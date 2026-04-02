@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab2</string>
+
+    <string name="first_number">Введіть перше число</string>
+    <string name="second_number">Введіть друге число</string>
+
+    <string name="addition">Додавання</string>
+    <string name="subtraction">Віднімання</string>
+    <string name="multiplication">Множення</string>
+    <string name="division">Ділення</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="fill_all_fields">Будь ласка, заповніть всі поля</string>
+    <string name="division_by_zero">Ділення на нуль неможливе</string>
+
+</resources>
