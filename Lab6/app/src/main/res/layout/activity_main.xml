@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_bg"
+    android:padding="16dp">
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мій список задач"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Поле вводу -->
+    <EditText
+        android:id="@+id/editTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть завдання"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"/>
+
+    <!-- Кнопка -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Додати"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/white"/>
+
+    <!-- Список -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"/>
+
+</LinearLayout>
