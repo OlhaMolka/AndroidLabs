@@ -54,8 +54,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         textY.text = "Y: %.2f".format(y)
         textZ.text = "Z: %.2f".format(z)
 
-        // 🔥 ОБРОБКА ДАНИХ (для 20/20)
-
         when {
             abs(x) > 10 || abs(y) > 10 -> {
                 textStatus.text = getString(R.string.status_move)
@@ -70,6 +68,5 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        // нічого не робимо
     }
 }
